@@ -98,7 +98,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">aviv.simionovici@ibm.com</value>
-    <value name="lastModifiedDate">1742289860764</value>
+    <value name="lastModifiedDate">1742290061654</value>
     <value name="displayName">HMO_UPDATE_MEHEDET</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -178,7 +178,7 @@
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <number name="ui_step_index" type="Long">1</number>
+        <number name="ui_step_index" type="Long">2</number>
         <null name="outputMapSet"/>
         <value name="nodePathForDebug">0</value>
       </record>

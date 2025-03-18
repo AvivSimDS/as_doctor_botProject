@@ -368,8 +368,14 @@
 <MAPCOPY FROM="/sex_;1;0" TO="/InsertInterviewDetailsInput;2;0/sex;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/num(1);3;0" TO="/InsertInterviewDetailsInput;2;0/age;3.6;0">
-</MAPCOPY>
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/InsertInterviewDetailsInput;2;0/age;3.6;0">
+  <DATA ENCODING="XMLValues" I18N="true">
+
+<Values version="2.0">
+  <number name="xml" type="Integer">33</number>
+</Values>
+</DATA>
+</MAPSET>
 </MAP>
 
 <MAP MODE="OUTPUT">
