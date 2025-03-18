@@ -11,7 +11,11 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
-- serviceName: project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:as_hmo_meu_db
+- serviceName: project.as_doctor_bot.integrations:as_edge_is_db_test_1
+  packages:
+  - name: As_doctor_botProject
+    version: "1.0"
+- serviceName: project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getInterview
   packages:
   - name: As_doctor_botProject
     version: "1.0"
