@@ -15,10 +15,6 @@ services:
   packages:
   - name: As_doctor_botProject
     version: "1.0"
-- serviceName: pub.math:toNumber
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2028
 - serviceName: project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:InsertInterviewDetails
   packages:
   - name: As_doctor_botProject
