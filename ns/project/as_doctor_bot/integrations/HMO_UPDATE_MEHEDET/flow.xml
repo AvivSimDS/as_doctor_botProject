@@ -187,7 +187,7 @@
 <MAPCOPY FROM="/sex_;1;0" TO="/InsertInterviewDetailsInput;2;0/sex;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/age_;3.6;0" TO="/InsertInterviewDetailsInput;2;0/age;3.6;0">
+<MAPCOPY FROM="/age_;3.7;0" TO="/InsertInterviewDetailsInput;2;0/age;3.6;0">
 </MAPCOPY>
 </MAP>
 
