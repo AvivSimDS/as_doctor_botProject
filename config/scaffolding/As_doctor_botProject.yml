@@ -11,11 +11,23 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: licensed
 services:
+- serviceName: project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:InsertInterviewDetails
+  packages:
+  - name: As_doctor_botProject
+    version: "1.0"
+- serviceName: project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:getInterview
+  packages:
+  - name: As_doctor_botProject
+    version: "1.0"
 - serviceName: project.as_doctor_bot.integrations:HMO_UPDATE_MEHEDET
   packages:
   - name: As_doctor_botProject
     version: "1.0"
-- serviceName: project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:InsertInterviewDetails
+- serviceName: project.as_doctor_bot.integrations:as_edge_is_db_test_1
+  packages:
+  - name: As_doctor_botProject
+    version: "1.0"
+- serviceName: project.as_doctor_bot.integrations:getAptEvidenceList
   packages:
   - name: As_doctor_botProject
     version: "1.0"
@@ -25,7 +37,7 @@ configurationVariables:
   ? artConnection.As_doctor_botProject.project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.as_hmo_meu_db.connectionSettings.networkProtocol
   : tcp
   ? artConnection.As_doctor_botProject.project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.as_hmo_meu_db.connectionSettings.password
-  : "{AES}PTWq2hgg4RimZ8H0r79NmA=="
+  : "{AES}aYrXC43dTWsDUHRWG5mhTA=="
   ? artConnection.As_doctor_botProject.project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.as_hmo_meu_db.connectionSettings.serverName
   : 10.240.64.29
   ? artConnection.As_doctor_botProject.project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.as_hmo_meu_db.connectionManagerSettings.minimumPoolSize
