@@ -27,10 +27,6 @@ services:
   packages:
   - name: As_doctor_botProject
     version: "1.0"
-- serviceName: project.as_doctor_bot.integrations:getAptEvidenceList
-  packages:
-  - name: As_doctor_botProject
-    version: "1.0"
 configurationVariables:
   ? artConnection.As_doctor_botProject.project.as_doctor_bot.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.as_hmo_meu_db.connectionManagerSettings.heartBeatInterval
   : "0"
