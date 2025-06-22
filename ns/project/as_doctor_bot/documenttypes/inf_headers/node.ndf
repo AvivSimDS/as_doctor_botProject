@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.as_doctor_bot.documenttypes:inf_headers</value>
+    <value name="node_pkg">As_doctor_botProject</value>
+    <value name="node_comment">Infermedica API HTTP request headers</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <record name="revisionData" javaclass="com.wm.util.Values">
+        <value name="createdBy">aviv.simionovici@ibm.com</value>
+        <value name="createdByUserId">e4d93abd51624feea09410938af60b3b</value>
+        <number name="createdDate" type="Long">1750616613086</number>
+        <value name="lastModifiedBy">aviv.simionovici@ibm.com</value>
+        <value name="lastModifiedByUserId">e4d93abd51624feea09410938af60b3b</value>
+        <number name="lastModifiedDate" type="Long">1750616613086</number>
+      </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">App-Id</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">App-Key</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">Dev-Mode</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">Content-Type</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">Interview-Id</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">Accept</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+    </array>
+    <value name="modifiable">true</value>
+  </record>
+</Values>
