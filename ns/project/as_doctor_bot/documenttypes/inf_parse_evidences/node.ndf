@@ -14,7 +14,7 @@
         <number name="createdDate" type="Long">1750768819406</number>
         <value name="lastModifiedBy">aviv.simionovici@ibm.com</value>
         <value name="lastModifiedByUserId">e4d93abd51624feea09410938af60b3b</value>
-        <number name="lastModifiedDate" type="Long">1750877161463</number>
+        <number name="lastModifiedDate" type="Long">1750877865906</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
@@ -44,7 +44,7 @@
             <record name="node_hints" javaclass="com.wm.util.Values">
             </record>
             <value name="is_public">false</value>
-            <value name="field_name">evidenceList</value>
+            <value name="field_name">evidence</value>
             <value name="field_type">record</value>
             <value name="field_dim">1</value>
             <value name="nillable">true</value>
